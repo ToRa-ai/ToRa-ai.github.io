@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: white;
+    font-family: 'Inconsolata', monospace;
+    text-align: right;
+}
+
+.shapes {
+    background-image: url(img/kuvio.png);
+}
+
+.navbar-nav {
+   text-align: center;
+  
+}
+
+.navbar-toggler-icon {
+    color: grey;
+    padding-right: 12px;
+}
+
+.topnav {
+    background-color: white;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #dce7e7;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+h4 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h5 {
+    font-family: 'Inconsolata', monospace;
+    text-align: left;
+    font-size: 20px;
+    
+
+}
+
+h6 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+  
+    
+}
+
+.progress {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    margin-bottom: 70px;
+    background-color: #384747;
+    border: none;
+    color:   white;
+    text-align: center;
+    transition: 0.3s;
+}
+
+  .btn:hover {
+    background-color: #59c4c3;
+    color: white;
+  }
+
+.icons {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: #59c4c3;
+    font-size: 25px;
+
+}
+
+.tonja-copyright {
+    margin-top: 60px;
+    font-size: 12px;
+}
+
+.contact-info {
+    font-size: 25px;
+}
+
+.modal-body-print_design {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+
+}
+
+  textarea {
+    height: 220px;
+  }
+
+

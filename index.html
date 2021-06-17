@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tonja Rantanen 2021">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@400;700&family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@400;700&family=Newsreader:wght@300&family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+
+</head>
+
+<body class="shapes">
+
+
+    
+<header>
+
+  <!--   Tästä alkaa navbar  -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-4">
+    <div class="container-fluid">
+
+        <a class="navbar-brand py-4" href="#"></a>  
+       
+        <a href="#"><img src="img/LOGO.png" style="position: fixed; margin-right: auto; margin-left: auto; height: 50px; margin-top: -25px;"></a>
+
+
+        <button class="navbar-toggler" style="margin-left: 8px;" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" 
+        aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+     
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-5">
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #384747;">Home</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#about" style="color: #384747">About</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#skills" style="color: #384747">New skills</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#latestwork" style="color: #384747">Latest Work & Projects</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#resume" style="color: #384747">Resume</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#references" style="color: #384747">References</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#contact" style="color: #384747">Contact</a>
+            </li>
+          </ul>
+      </div>
+      
+    </div>
+
+  </nav>
+
+<!--  Alkuperäinen Navbar
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/LOGO.png" alt="Logo" width="60px" style="display: block; margin-left: auto; margin-right: auto;"></a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#latestwork">Latest Work & Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#references">References</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+             
+            </ul>
+           
+          </div>
+        </div>
+    </nav>
+
+   
+-->
+
+  </header>
+
+    <!-- Home starts -->
+<section class="page-section" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <img src="img/LOGO.png" alt="logo" height="170px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 150px;">
+                
+                <h1>Front-end Developer (student) <br>& Visual Designer</h1>
+                
+                <h2>A Design-minded front-end Developer <br>searching for an internship!</h2>
+                
+                <a href="#contact" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true" style="width: 180px; font-family: 'Inconsolata', monospace;">Contact</a>
+
+<!-- Modal 
+                <button type="button" class="btn btn-dark" style="font-family:'Inconsolata', monospace; width: 80px;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact</button>
+                 
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel" style="font-family: 'Inconsolata', monospace;">Drop a note!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="tonja.rantanen@gmail.com" class="col-form-label" style="font-family: 'Inconsolata', 
+                              monospace;">Recipient:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label" style="font-family: 'Inconsolata', monospace;">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" style="font-family: 'Inconsolata', monospace;">Close</button>
+                          <button type="button" class="btn btn-info" style="font-family: 'Inconsolata', monospace; width: 150px; height: auto;"  >Send message</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+ -->           
+            
+            
+              </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- Frontpage end -->
+
+    <!-- About (tuleeko?) -->
+
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6">
+        <img src="img/IMG_3547.png" class="img-fluid" alt="profiilikuva" style="width: 500px; margin-top: 200px; margin-bottom: 40px;">
+
+            <h5>I´m Tonja. I´m professional visual designer with over ten years of experience in Graphic Designing and Art
+              Direction. Currently, I´m also studying front-end development. With that, I´m not only aspire to expand my 
+              competences but also to become a design-oriented front-end Developer. User interface Designing and Programming 
+              are the matters of my high interest.
+
+              At the moment, I´m looking for a suitable internship to further my learnings. Please don´t hesitate to drop me a 
+              line if you are interested in employing me.
+            </h5>
+      </div>
+      
+      <div class="col-md-6"></div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Skills starts-->
+<section class="page-section" id="skills"> 
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>New skills 2020-2021</h3>
+
+        <p>JavaScript <span class="badge bg-info"> New</span></p>
+             <div class="progress">
+                 <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" 
+                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+             </div>
+
+        <p>Responsive Web Application with Bootstrap and CSS <span class="badge bg-info"> New</span></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" 
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+              </div>
+
+        <p>Premiere <span class="badge bg-info"> New</span></p>
+              <div class="progress">
+                 <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" 
+                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+              </div>
+
+        <p>Wordpress <span class="badge bg-info"> New</span></p>
+               <div class="progress">
+                 <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" 
+                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+              </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills ends -->
+
+
+
+    
+    <!-- Latets work & Projects starts -->
+
+<section class="page-section" id="latestwork">
+  
+  <div class="container">
+    <div class="row">
+    
+        <h3>Latest Work & Projects</h3>
+
+              <!-- First card -->
+             <div class="col-md justify-content-center">
+                  <div class="card" style="width: 18rem; height: auto; margin-top: 20px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px;">
+
+                    <h5 class="card-title" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">Website Renewal</h5>
+                    <!--  <p class="card-text">Now I am working on responsive website renewal for Capoeira Helsinki Fica group.</p>-->
+
+                    <img src="img/Fica_.png" class="card-img-top" alt="responsiveLayout">
+                    <div class="card-body">
+
+                         
+                    <!-- Button trigger modal -->
+                    
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel">Website Renewal</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body" style="font-family: 'Inconsolata', monospace;;">
+                            Now I am working on responsive website renewal for Capoeira Helsinki Fica group.
+                          </div>
+                          
+                          <!-- Close button -->
+                           <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" style="margin-top: 20px; width: 80px; height: auto; font-family: 'Inconsolata', monospace;">Close</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                
+                    <a class="btn btn-dark" data-bs-toggle="modal" href="#exampleModalToggle" role="button" style="width: 180px; height: auto; margin-top: 30px; font-family: 'Inconsolata', monospace;">Read more</a>
+                    
+                  </div>
+                </div>
+            </div>
+
+             
+              
+             <!-- Second card --> 
+             <div class="col-md justify-content-center">
+                  <div class="card" style="width: 18rem; margin-top: 20px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 30px;">
+
+                      <h5 class="card-title" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">Web Design and <br>Visual Identity</h5>
+                        <!--  <p class="card-text">New brand identity and responsive website for company Urakointi Lp Oy. Logo was used also for clothes and stickers.</p>-->
+                        <img src="img/urakka.png" class="card-img-top" alt="responsive">
+                        <img src="img/hoodie.png" class="card-img-top" alt="responsive">
+                        <img src="img/tshirt.png" class="card-img-top" alt="responsive">
+                        <img src="img/sticker.png" class="card-img-top" alt="responsive">
+                      <div class="card-body">
+
+                           
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-dark" style="width: 180px; height: auto; 
+                            margin-top: 30px; font-family: 'Inconsolata', monospace;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                              Read more
+                            </button>
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Web Design and Visual Identity</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body" style="font-family: 'Inconsolata', monospace;;">
+                                    Visual Identity and Responsive Website for company Urakointi Lp Oy. Logo has been used also 
+                                    for clothes and stickers. Take a look! <a href="https://urakointi-lp.fi">Urakointi-lp</a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" 
+                                    style="margin-top: 20px; width: 80px; height: auto; font-family: 'Inconsolata', monospace;">Close</button>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                      </div>
+                  </div>
+            </div>
+
+          
+        <!-- Third card -->
+             <div class="col-md justify-content-center">
+                <div class="card" style="width: 18rem; margin-top: 20px; margin-bottom: 30px; display: block; margin-right: auto; margin-left: auto;">
+
+                  <h5 class="card-title" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">Print Designs</h5>
+                    <!--  <p class="card-text">I was working many years for Cosmopolitan magazine and here is my work from that time.</p>-->
+
+                  <img src="img/website.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+
+                     <!-- button -->  
+                  
+
+
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-dark" style="width: 180px; height: auto; margin-top: 30px; font-family: 'Inconsolata', monospace;" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                     Read more
+                   </button>
+
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="modal-header">
+                           <h5 class="modal-title" id="staticBackdropLabel">Print Design</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body" style="font-family: 'Inconsolata', monospace;;">
+                          I worked many years as a Art Director and Graphic Designer for Cosmopolitan magazine. Check it out 
+                          <a href="https://tonjarantanen.com">tonjarantanen.com</a>
+                         </div>
+                         <div class="modal-footer">
+                           <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" 
+                           style="margin-top: 20px; width: 80px; height: auto; font-family: 'Inconsolata', monospace;">Close</button>
+                           
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                
+                     
+                    
+
+                  </div>
+                </div>
+             </div>
+
+          </div>
+
+      </div>
+    
+    
+</section>
+
+    <!-- Latets work & Projects ends -->
+
+
+
+
+    <!-- References starts-->
+<section class="page-section" id="references"> 
+  <div class="container">
+    <div class="row">
+
+      <h3>Said about me...</h3>
+
+      <div class="col-md-6">
+
+          <p>"At work she is specific, fast and makes new ideas constantly and finds creative solutions for problems."</p>
+          <h6>Linda Forss, Editor-in-Chief at Cosmopolitan, Fokus Media</h6>
+
+          <p>"At work she has shown to ability to learn fast new desktop publishings. Additionally with technical skills 
+          she is able to produce fast spectacularly visual solutions for digital and print."</p>
+          <h6>Taina Korhonen, <br>Art Director at Sanoma Media Finland</h6>
+
+          <p>"She has lot of visual ideas and she takes responsibility, she is reliable and editorial staff has been always 
+          been able to count on her."</p> 
+          <h6>Saara Tuomikoski, <br>Art Director at Fokus Media</h6>
+      </div>
+
+      <div class="col-md-6">
+          
+          <p>"She has ability to handle stress under rush time schedules and she has always time to help colleagues."</p>
+          <h6>Taina Korhonen, <br>Art Director at Sanoma Media Finland</h6>
+
+          <p>"She has good sense of style and strong competent of magazines and visual design."</p>
+          <h6>Saara Tuomikoski, <br>Art Director at Fokus Media</h6>
+
+          <p>"She is conscientious, hard-working and get excited easily."</p>
+          <h6>Linda Forss,<br>Editor-in-Chief at Cosmopolitan, Fokus Media</h6>
+
+      </div>
+    </div>
+  </div> 
+</section>
+
+    <!-- References ends -->
+
+
+
+    <!-- Resume starts-->
+<section class="page-section" id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+          <h3>Resume</h3>
+              <p>Download my CV in Finnish</p>
+
+                   <a class="btn btn-dark btn-md" href="img/CV_uusi.pdf" download="cv_fin.pdf" role="button" style="width: 180px;">
+                   <i class="far fa-arrow-alt-circle-down"></i></a>
+              
+              <p>Download my CV in English</p>
+                   <a class="btn btn-dark btn-md" href="img/CV_uusi_eng.pdf" download="cv_engl.pdf" role="button" style="width: 180px;">
+                    <i class="far fa-arrow-alt-circle-down"></i></a>
+      </div>
+    </div>
+  </div> 
+</section>
+    
+
+   <!-- Resume ends -->
+
+
+   
+    <!-- Contact starts -->
+<section class="page-section" id="contact">
+  <div class="container">
+    <div class="col-md">
+      <h3>Contact</h3>
+      
+      <h1 class="contact-info">Hey, let´s do some cool stuff together! Contact: tonja.rantanen@gmail.com</h1>
+      
+
+
+      
+        
+
+<!-- Modal 
+        <button type="button" class="btn btn-dark" style="font-family:'Inconsolata', monospace; width: 80px; margin-top: 20px;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact</button>
+                 
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel" style="font-family: 'Inconsolata', monospace;">New message</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label" style="font-family: 'Inconsolata', monospace;">Recipient:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label" style="font-family: 'Inconsolata', monospace;">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal" style="font-family: 'Inconsolata', monospace;">Close</button>
+                          <button type="button" class="btn btn-info" style="font-family: 'Inconsolata', monospace; width: 150px; height: auto;"  >Send message</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+-->
+
+    </div>
+  </div>
+</section>
+
+    <!-- Contact ends -->
+
+
+
+
+
+    <!-- Footer starts -->
+    <div class="row">
+      <div class="col">
+     
+        <div class="icons" style="text-align: center;">
+          <a class="icons py-5 mr-3" role="button" href="https://www.linkedin.com/in/tonjarantanen/"><i class="fab fa-lg fa-linkedin-in"></i></a>
+          <a class="icons py-5 mr-3" role="button" href="https://github.com/ToRa-ai"><i class="fab fa-lg fa-github"></i></a>
+
+          <p class="tonja-copyright">Copyright © 2021 - Tonja Rantanen</p>
+        </div>
+
+      </div>
+    </div>
+
+    
+
+    <!-- Footer ends -->
+
+
+
+
+
+<!-- Optional JavaScript; choose one or two! -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="js/functions_.js"></script>
+
+</body>
+</html>
